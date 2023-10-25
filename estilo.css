@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(1, 1, 1);
+    font: normal 18pt Arial;
+    background-image: url('pretoecinza.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    color: white;
+}
+
+h1{
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(18, 18, 18);
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    text-align: center;
+}
+
+#btn{
+    height: 20px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+p#operadores{
+    color: red;
+    text-align: center;
+    font-style: italic;
+    box-shadow: 10px 10px 10px rgb(96, 97, 97);
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+input{
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    color: rgb(250, 0, 0);
+    font-style: italic;
+    
+}
+
+div#res{
+    box-shadow: 10px 10px 10px rgb(96, 97, 97);
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+
+radex{
+    color: rgb(250, 0, 0);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}

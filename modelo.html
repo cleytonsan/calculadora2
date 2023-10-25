@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercicio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div>
+            <input type="number" name="txtn1" id="txtn1" >
+            <input type="number" name="txtn2" id="txtn2" >
+            <p id="operadores">
+                <input type="radio" name="radcalc" id="mais">
+                <label for="mais">+</label>
+                <input type="radio" name="radcalc" id="menos" >
+                <label for="menos">-</label>
+                <input type="radio" name="radcalc" id="vezes" >
+                <label for="vezes">x</label>
+                <input type="radio" name="radcalc" id="dividir" >
+                <label for="dividir">/</label>
+                <input type="radio" name="radcalc" id="resto" >
+                <label for="resto">%</label>
+            </p>
+            <input type="button" value="Calcular" id="btn" onclick="calcular()">
+            <input type="button" value="Limpar" id="btn" onclick="limpar()">
+            
+        </div>
+        <div id="res">
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Cleyton Santos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
